@@ -78,6 +78,11 @@ The package list was updated:
 ```bash
 sudo apt update
 ```
+Finally, ROS 2 Humble Desktop was installed:
+
+```bash
+sudo apt install ros-humble-desktop
+```
 ---
 ## 6. Configuring ROS 2 Environment
 To automatically load the ROS 2 environment when opening a new terminal, the following command was used:
