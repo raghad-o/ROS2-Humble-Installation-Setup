@@ -38,9 +38,10 @@ Ubuntu 22.04 was installed using PowerShell as Administrator with the following 
 ```powershell
 wsl --install -d Ubuntu-22.04
 ```
-After installation, Ubuntu was launched and configured through WSL2.
 
 ![Installing Ubuntu 22.04](images/02-install-ubuntu22.png)
+
+After installation, the system was restarted, and Ubuntu 22.04 was launched through WSL2 to continue the configuration process.
 
 ---
 
