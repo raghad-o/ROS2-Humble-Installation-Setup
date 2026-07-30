@@ -139,7 +139,6 @@ This confirms that ROS 2 Humble was successfully installed and configured.
 
 ---
 ## 8. Problems Encountered
-The ROS 2 distribution was verified using:
 
 ### Problem 1: Package Download Failure
 During the installation process, some packages failed to download due to a connection timeout.
@@ -161,7 +160,7 @@ The command:
 ```
 ros2 --version
 ```
-returned an error because ROS 2 does not provide a `--version` option.
+returned an error because the `ros2` command-line tool does not support the `--version` option.
 
 ![ROS 2 Version Command Error](images/13-ros2-version-error.png)
 
